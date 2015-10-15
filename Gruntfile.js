@@ -386,6 +386,19 @@ module.exports = function (grunt) {
         'imagemin',
         'svgmin'
       ]
+    },
+
+    buildcontol: {
+      options: {
+        commit: true,
+        push: true
+      },
+      pages: {
+        options: {
+          remote: 'git@github.com:jjkiesch/daylight.industries.git',
+          branch: 'gh-pages'
+        }
+      }
     }
   });
 

@@ -15,7 +15,8 @@ module.exports = function (grunt) {
 
   // Automatically load required grunt tasks
   require('jit-grunt')(grunt, {
-      useminPrepare: 'grunt-usemin'
+      useminPrepare: 'grunt-usemin',
+      buildcontrol: 'grunt-build-control'
   });
 
   // Configurable paths
@@ -388,10 +389,12 @@ module.exports = function (grunt) {
       ]
     },
 
-    buildcontol: {
+    buildcontrol: {
       options: {
+        dir: 'dist',
         commit: true,
-        push: true
+        push: true,
+        message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
       },
       pages: {
         options: {

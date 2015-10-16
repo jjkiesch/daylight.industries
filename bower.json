@@ -4,7 +4,8 @@
   "dependencies": {
     "bootstrap-sass": "~3.3.5",
     "modernizr": "~2.8.3",
-    "font-awesome": "~4.4.0"
+    "font-awesome": "~4.4.0",
+    "brand-colors": "~0.5.5"
   },
   "overrides": {
     "bootstrap-sass": {

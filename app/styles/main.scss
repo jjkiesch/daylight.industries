@@ -1,10 +1,20 @@
 @import url(https://fonts.googleapis.com/css?family=Squada+One);
 
+@import "bower_components/brand-colors/dist/latest/scss/brand-colors.latest.scss";
+
 @import "variables";
 
+$fa-font-path: "../bower_components/font-awesome/fonts";
 $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 @import "bower_components/font-awesome/scss/font-awesome.scss";
 // endbower
+
+.fa-spotify { color: $bc-spotify; }
+.fa-facebook-square { color: $bc-facebook; }
+.fa-twitter-square { color: $bc-twitter; }
+.fa-youtube-square { color: $bc-youtube; }
+.fa-instagram { color: $bc-instagram; }
+.fa-google-plus-square { color: $bc-google; }

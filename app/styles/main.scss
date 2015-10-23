@@ -12,6 +12,8 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 @import "bower_components/font-awesome/scss/font-awesome.scss";
 // endbower
 
+a .fa-square { color: white; }
+
 .fa-spotify { color: $bc-spotify; }
 .fa-facebook-square { color: $bc-facebook; }
 .fa-twitter-square { color: $bc-twitter; }
@@ -19,3 +21,4 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 .fa-instagram { color: $bc-instagram; }
 .fa-google-plus-square { color: $bc-google; }
 .fa-apple { color: $bc-apple; }
+.fa-amazon { color: $bc-amazon; }
